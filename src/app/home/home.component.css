@@ -1,3 +1,4 @@
-.title-page {
-  height: calc(100vh - 75px);
+.section {
+  height: calc(100vh - 62px);
+  overflow-x: hidden ;
 }

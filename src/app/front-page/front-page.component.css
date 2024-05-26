@@ -1,10 +1,16 @@
-.bg-custom{
-  background-image: url("src/assets/img/background.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+.selector {
+  height: 20px;
+  width: 15px;
+  background-color: #aaa;
+  margin: auto;
+  position: relative;
+  top: 10px;
+  border-radius: 0px 0px 8px 8px;
+  border: 1px solid #000;
+  border-top: 5px solid #000;
+  z-index: 1000;
 }
 
-.bg-cover{
-  background: rgba(0, 0, 0, 0.8);
-  color: aliceblue;
+#roulette{
+  max-height: 80%;
 }
