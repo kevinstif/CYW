@@ -1,3 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 @import "normalize.css";
 @import "bootstrap/dist/css/bootstrap.css";
+
+
+.custom-color-primary{
+  color: #FFCC01;
+}
+
+.custom-bg-primary{
+  background-color: #FFCC01;
+}

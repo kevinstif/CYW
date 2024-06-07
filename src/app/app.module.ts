@@ -7,13 +7,15 @@ import {HttpClientModule} from "@angular/common/http";
 import { HomeComponent } from './home/home.component';
 import { LinkScannerComponent } from './link-scanner/link-scanner.component';
 import { FrontPageComponent } from './front-page/front-page.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     LinkScannerComponent,
-    FrontPageComponent
+    FrontPageComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,

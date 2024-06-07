@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-front-page',
@@ -30,6 +31,14 @@ export class FrontPageComponent {
     roulette.style.transition = "all 5s";
     setTimeout(() => {
       console.log("ganaste")
+      Swal.fire({
+        title:"¡Felicidades!",
+        text: "Ahora tus datos son nuestros",
+        icon:"warning",
+        iconColor:"red",
+        confirmButtonText:"OK",
+        confirmButtonColor:"black"
+      })
     }, 5000);
   }
 }
