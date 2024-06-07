@@ -8,6 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { LinkScannerComponent } from './link-scanner/link-scanner.component';
 import { FrontPageComponent } from './front-page/front-page.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { DefinitionPageComponent } from './definition-page/definition-page.component';
+import { DefinitionCardComponent } from './definition-card/definition-card.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     HomeComponent,
     LinkScannerComponent,
     FrontPageComponent,
-    NavBarComponent
+    NavBarComponent,
+    DefinitionPageComponent,
+    DefinitionCardComponent
   ],
   imports: [
     BrowserModule,

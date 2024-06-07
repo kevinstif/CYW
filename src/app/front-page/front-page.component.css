@@ -14,3 +14,8 @@
 #roulette{
   max-height: 80%;
 }
+
+.section {
+  height: calc(100vh - 115px);
+  overflow-x: hidden ;
+}
