@@ -1,16 +1,16 @@
 .translate-x-positive{
-  transform: translateX(30%) scale(90%);;
+  transform: translateX(40%) scale(90%);;
 }
 .translate-x-negative{
-  transform: translateX(-20%) scale(90%);;
+  transform: translateX(-40%) scale(90%);;
 }
 
 .overlay {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  width: 80%;
-  height: 65%;
+  width: 75%;
+  height: 70%;
   background-color: rgba(217, 216, 216, 0.5);
   z-index: 2;
   border-radius: 16px;

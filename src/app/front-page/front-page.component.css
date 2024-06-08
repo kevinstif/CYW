@@ -16,6 +16,6 @@
 }
 
 .section {
-  height: calc(100vh - 101px);
+  height: calc(100vh - 92px);
   overflow-x: hidden ;
 }
