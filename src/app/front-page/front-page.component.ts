@@ -9,6 +9,7 @@ import Swal from 'sweetalert2';
 export class FrontPageComponent {
 
   curtainsOpened = false;
+  rouleteSpining= false;
 
   OpenCurtains() {
     const curtainLeft = document.getElementById("curtainLeft")!;
@@ -25,12 +26,17 @@ export class FrontPageComponent {
   }
 
   spinRoulette() {
+
+    if (this.rouleteSpining) return;
+
+    this.rouleteSpining = true;
+
     const roulette = document.getElementById('roulette')!;
     let rand = Math.random() * 7200;
     roulette.style.transform = "rotate("+rand+"deg)";
     roulette.style.transition = "all 5s";
     setTimeout(() => {
-      console.log("ganaste")
+      this.rouleteSpining = false
       Swal.fire({
         title:"¡Felicidades!",
         text: "Ahora tus datos son nuestros",
