@@ -5,11 +5,13 @@ import {AppRoutingModule} from "./app-routing.module";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {HttpClientModule} from "@angular/common/http";
 import { HomeComponent } from './home/home.component';
-import { LinkScannerComponent } from './link-scanner/link-scanner.component';
-import { FrontPageComponent } from './front-page/front-page.component';
+import { LinkScannerComponent } from './pages/link-scanner/link-scanner.component';
+import { FrontPageComponent } from './pages/front-page/front-page.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
-import { DefinitionPageComponent } from './definition-page/definition-page.component';
+import { DefinitionPageComponent } from './pages/definition-page/definition-page.component';
 import { DefinitionCardComponent } from './definition-card/definition-card.component';
+import { CasesPageComponent } from './pages/cases-page/cases-page.component';
+import { CasesCardComponent } from './cases-card/cases-card.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { DefinitionCardComponent } from './definition-card/definition-card.compo
     FrontPageComponent,
     NavBarComponent,
     DefinitionPageComponent,
-    DefinitionCardComponent
+    DefinitionCardComponent,
+    CasesPageComponent,
+    CasesCardComponent
   ],
   imports: [
     BrowserModule,
