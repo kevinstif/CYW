@@ -8,7 +8,7 @@
   border-radius: 0px 0px 8px 8px;
   border: 1px solid #000;
   border-top: 5px solid #000;
-  z-index: 1000;
+  z-index: 1;
 }
 
 #roulette{
@@ -16,6 +16,5 @@
 }
 
 .section {
-  height: calc(100vh - 92px);
-  overflow-x: hidden ;
+  height: 100vh;
 }
