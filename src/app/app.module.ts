@@ -13,6 +13,7 @@ import { DefinitionCardComponent } from './components/definition-card/definition
 import { CasesPageComponent } from './pages/cases-page/cases-page.component';
 import { CasesCardComponent } from './components/cases-card/cases-card.component';
 import { CasesGraphComponent } from './components/cases-graph/cases-graph.component';
+import { StatsPageComponent } from './pages/stats-page/stats-page.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { CasesGraphComponent } from './components/cases-graph/cases-graph.compon
     DefinitionCardComponent,
     CasesPageComponent,
     CasesCardComponent,
-    CasesGraphComponent
+    CasesGraphComponent,
+    StatsPageComponent
   ],
   imports: [
     BrowserModule,
