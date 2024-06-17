@@ -11,6 +11,10 @@
   background-color: #FFCC01;
 }
 
+.custom-bg-secondary{
+  background-color: #717c89;
+}
+
 .headline-1{
   font-size: 64px;
   line-height: 72px;

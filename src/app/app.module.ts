@@ -16,6 +16,7 @@ import { CasesGraphComponent } from './components/cases-graph/cases-graph.compon
 import { StatsPageComponent } from './pages/stats-page/stats-page.component';
 import { TypesPageComponent } from './pages/types-page/types-page.component';
 import { TypesCardComponent } from './components/types-card/types-card.component';
+import { ChatBotPageComponent } from './pages/chat-bot-page/chat-bot-page.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { TypesCardComponent } from './components/types-card/types-card.component
     CasesGraphComponent,
     StatsPageComponent,
     TypesPageComponent,
-    TypesCardComponent
+    TypesCardComponent,
+    ChatBotPageComponent
   ],
   imports: [
     BrowserModule,
